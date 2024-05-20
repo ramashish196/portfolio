@@ -1,0 +1,228 @@
+/* ---------contact form-------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --black: #2a1d1d;
+  --gray: #6f6c6c;
+  --white: #fafdff;
+  --clrbtn: #1bc4d7;
+  --clrnv: #050f26;
+  --clrbg: #091b2a;
+  --clrbtn2: #35b3b6;
+  --clrgrnt: linear-gradient(#e66465, #9198e5);
+  color: var(--white);
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--clrbg);
+  font-size: 3rem;
+  position: relative;
+}
+.contact-div {
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .heading {
+    color: var(--clrbtn);
+  }
+}
+.contact-div__form {
+  width: 60rem;
+  height: 60rem;
+  input {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    border: none;
+    background-color: var(--clrnv);
+    color: var(--white);
+  }
+  input:focus {
+    border: 1px solid var(--clrbtn2);
+    outline: none;
+    color: var(--white);
+  }
+}
+.textarea {
+  width: 100%;
+  height: 20rem;
+  font-size: 4rem;
+  border: none;
+  background-color: var(--clrnv);
+  color: var(--white);
+}
+.textarea:focus {
+  border: 1px solid var(--clrbtn2);
+  outline: none;
+  color: var(--white);
+}
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  width: 17rem;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%);
+  background-color: var(--clrnv);
+  color: var(--white);
+  letter-spacing: 4px;
+  border: 2px solid var(--clrbtn);
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 4px 4px 9px var(--clrbtn);
+}
+
+/* ---------media query------ */
+@media (min-width: 300px) {
+  .container {
+    max-width: 300px;
+    input {
+      max-width: 280px;
+      margin-left: 16rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      font-size: 2rem;
+    }
+    label {
+      margin-left: 16rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    .textarea {
+      max-width: 280px;
+      margin-left: 16rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      font-size: 2rem;
+    }
+    .btn {
+      font-size: 2rem;
+    }
+  }
+}
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    input {
+      max-width: 430px;
+      margin-left: 8rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      font-size: 2rem;
+    }
+    label {
+      margin-left: 8rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    .textarea {
+      max-width: 430px;
+      margin-left: 8rem;
+      margin-right: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      font-size: 2rem;
+    }
+    .btn {
+      font-size: 2rem;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px;
+    input {
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    label {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .textarea {
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn {
+      font-size: 3rem;
+    }
+  }
+}
+@media (min-width: 700px) {
+  .container {
+    max-width: 700px;
+    input {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    label {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .textarea {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media (min-width: 750px) {
+  .container {
+    max-width: 750px;
+    input {
+      max-width: 750px;
+    }
+    .textarea {
+      max-width: 750px;
+    }
+  }
+}
+@media (min-width: 895px) {
+  .container {
+    max-width: 895px;
+    input {
+      max-width: 895px;
+    }
+    .textarea {
+      max-width: 750px;
+    }
+  }
+}
+@media (min-width: 1020px) {
+  .container {
+    max-width: 1020px;
+    input {
+      max-width: 1020px;
+    }
+  }
+}
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1250px;
+    input {
+      max-width: 1250px;
+    }
+  }
+}

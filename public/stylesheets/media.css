@@ -1,0 +1,168 @@
+@media (min-width: 300px) and (max-width: 700px) {
+  /* .container {
+    max-width: 700px;
+  } */
+  .containerbox {
+    height: 600px;
+    max-width: 700px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .containerbox2 {
+    height: 350px;
+    max-width: 700px;
+    /* border: 2px solid green; */
+    flex-direction: column;
+  }
+  .imagediv {
+    display: block;
+    order: 1;
+    width: 300px;
+    height: 350px;
+    /* border: 2px solid green; */
+  }
+  .headingdiv {
+    width: 300px;
+    height: 100px;
+    order: 2;
+    display: block;
+  }
+  .head-div {
+    font-size: 1.8rem;
+  }
+  .hire__btn {
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-section {
+    width: 400px;
+    height: 1020px;
+  }
+  .containerbox2 {
+    height: 350px;
+    max-width: 600px;
+    /* border: 2px solid red; */
+  }
+  .skills-sectiondiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftskillsdiv {
+    max-width: 400px;
+    max-height: 200px;
+    h4 {
+      font-size: 15px;
+    }
+    .frontend {
+      width: 200px;
+      height: 80px;
+      /* border: 2px solid red; */
+      li {
+        font-size: 15px;
+        max-width: 100px;
+        max-height: 30px;
+      }
+    }
+    .backend {
+      width: 200px;
+      height: 80px;
+      /* border: 2px solid red; */
+      li {
+        font-size: 15px;
+        max-width: 100px;
+        max-height: 30px;
+      }
+    }
+  }
+  .rightskillsdiv {
+    margin-right: 15px;
+    max-width: 400px;
+    max-height: 200px;
+    font-size: 1.2rem;
+    p {
+      padding-right: 2.2rem;
+    }
+  }
+}
+
+@media (min-width: 701px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .rightskillsdiv {
+    font-size: 2rem;
+  }
+  .head-div {
+    h3,
+    p {
+      font-size: 2.2rem;
+    }
+  }
+}
+@media (min-width: 701px) and (max-width: 894px) {
+  .headingdiv {
+    width: 500px;
+  }
+  .imagediv {
+    flex-basis: 48%;
+  }
+  .headbio {
+    width: 500px;
+    height: 100%;
+    gap: 1rem;
+  }
+  .hire__btn {
+    max-width: 300px;
+    max-height: 80px;
+    display: flex;
+  }
+  .hirebtn1 {
+    max-width: 150px;
+  }
+  .hirebtn2 {
+    max-width: 150px;
+  }
+  .imagediv {
+    max-width: 300px;
+    max-height: 50%;
+  }
+}
+@media (min-width: 895px) {
+  .container {
+    max-width: 895px;
+    .head-div {
+      /* border: 2px solid red; */
+      width: 100%;
+      font-size: 2.5rem;
+      height: 100%;
+    }
+    .imagediv {
+      /* border: 2px solid green; */
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .rightskillsdiv {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 1020px) {
+  .container {
+    max-width: 1020px;
+  }
+  .head-div {
+    h3,
+    p {
+      font-size: 2.8rem;
+    }
+  }
+}
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1250px;
+  }
+}

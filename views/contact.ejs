@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./stylesheets/style.css" /> -->
+    <link rel="stylesheet" href="./stylesheets/contact.css" />
+    <link rel="stylesheet" href="./stylesheets/utils.css" />
+    <script type="module" src="./javascripts/contact.js"></script>
+    <title>contact</title>
+  </head>
+  <body>
+    <div class="contact-div container">
+      <h3>Contact <span class="heading">me</span></h3>
+      <form action="" method="post" class="contact-div__form">
+        <div class="input-fields">
+          <label for="name">Name</label><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br />
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          /><br />
+          <label for="number">Contact number</label><br />
+          <input
+            type="text"
+            name="number"
+            id="number"
+            placeholder="Enter contact number"
+            required
+          />
+          <br />
+          <label for="subject">Message</label>
+          <br />
+          <textarea
+            name=""
+            id="sub"
+            placeholder="write message"
+            class="textarea"
+          ></textarea>
+          <br />
+          <button type="submit" class="btn">submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
