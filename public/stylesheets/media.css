@@ -60,8 +60,8 @@
       width: 200px;
       height: 80px;
       /* border: 2px solid red; */
-      li {
-        font-size: 15px;
+      .listmenu {
+        font-size: 10px;
         max-width: 100px;
         max-height: 30px;
       }
@@ -70,8 +70,8 @@
       width: 200px;
       height: 80px;
       /* border: 2px solid red; */
-      li {
-        font-size: 15px;
+      .listmenu {
+        font-size: 8px;
         max-width: 100px;
         max-height: 30px;
       }
